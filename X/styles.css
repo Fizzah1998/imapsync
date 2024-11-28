@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (max-width: 1024px){
+    .toolTipToggleRes{
+        width: 200px;
+        left: 0;
+        right: unset;
+        transform: translateX(0%);
+        white-space: normal;
+        text-align: center;
+    }
+    .toolTipButtonRes{
+        width: fit-content;
+        left: 0;
+        right: unset;
+        transform: translateX(0%);
+        white-space: normal;
+        text-align: center;
+    }
+    .toolTipRes{
+        width: 50vw;
+        left: 50%;
+        right: unset;
+        transform: translateX(-100%);
+        white-space: normal;
+        text-align: center;
+    }
+    .toolTipCheckRes{
+        width: 50vw;
+        left: 50%;
+        right: unset;
+        transform: translateX(0%);
+        white-space: normal;
+        text-align: center;
+    }
+}
